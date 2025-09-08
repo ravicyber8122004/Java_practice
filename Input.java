@@ -7,5 +7,6 @@ public class Input {
         // String name = sc.next();
         String name = sc.nextLine();     // Some are many function in scan like nextInt() , nextFloat()
         System.out.println(name);
+        sc.close();
     }
 }
